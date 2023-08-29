@@ -1,0 +1,40 @@
+.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.check {
+    animation: check 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes check {
+    0% {
+        background-color: green;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes shake {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    75% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
