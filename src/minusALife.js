@@ -15,7 +15,7 @@ export const minusALife = async () => {
     displayLives();
     if (step.done) {
         // TODO: show modal with game over message
-        alert("Game over");
+        alert("Game over, the word was: " state.globalWord);
         // disable everything
         return;
     }
